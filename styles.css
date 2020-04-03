@@ -1,0 +1,180 @@
+/********************************TAG SELECTORS*********************************/
+
+
+body{
+  background-color: #8bbabb;
+  margin: 0;
+  text-align: center;
+}
+
+hr{
+  background-color: #e3f6f5;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3b6978;
+  border-width: 8px;
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+h2{
+  color: #004445;
+}
+
+h3{
+  color: #2c7873;
+}
+
+a{
+  color: #2c7873;
+  text-decoration: none
+}
+
+a:hover{
+  color:#004445;
+}
+
+
+
+
+/*******************************CLASS SELECTORS*******************************/
+.bio{
+width: 50%;
+margin: auto;
+line-height: 1.5;
+
+
+}
+.bio-title{
+  font-family: 'Handlee', cursive;
+  font-size: 2rem;
+  margin-top:10px;
+  color: #004445;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 170px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  padding-top: 20px;
+  padding-bottom: 10px;
+   background-color:  #66BFBF;
+}
+
+.carpentry{
+  border-radius: 100%;
+  float: right;
+  height: 100px;
+  padding: 25px;
+  width: 100px;
+}
+
+.cm-p{
+  margin: 40px auto 60px;
+}
+
+.h1-intro{
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 392.5%;
+  margin: 50px auto 10px auto;
+  color: #004445;
+  line-height: 2;
+}
+
+.headshot{
+  border-radius: 100%;
+  height: 100px;
+  margin-top: 50px;
+  width: 100px;
+}
+
+.middle-container{
+background-color: #e3f6f5;
+padding-bottom: 50px;
+}
+
+.mountain{
+  position: relative;
+  top: 55px;
+}
+
+.profile{
+  background-color: #8bbabb;
+  padding-bottom: 20px;
+}
+
+
+
+.skill-row{
+  display: block;
+  line-height: 2;
+  margin: 100px auto 50px auto;
+  text-align: left;
+  width: 75%;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.top-container{
+  background-color: #8bbabb;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.wine{
+  border-radius: 100%;
+  float: left;
+  height: 100px;
+  padding: 25px;
+  width: 150px;
+}
+
+
+
+/*********************************ID SELECTORS**********************************/
+.btn {
+	background-color:#44c767;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
